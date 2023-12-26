@@ -65,7 +65,7 @@ TreatmentPatterns::executeTreatmentPatterns(dataSettings = dataSettings,
 
 
 
-##????tPatterns::launchResultsExplorer(saveSettings = saveSettings)
+TreatmentPatterns::launchResultsExplorer(saveSettings = saveSettings)
 TreatmentPatterns::launchResultsExplorer(outputFolder = file.path(saveSettings$rootFolder, "output"))
 TreatmentPatterns::launchResultsExplorer(zipFolder = saveSettings$rootFolder)
 
