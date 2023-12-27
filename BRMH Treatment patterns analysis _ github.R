@@ -4,7 +4,7 @@
 #remotes::install_github("OHDSI/ROhdsiWebApi",force = TRUE)
 
 library(ROhdsiWebApi)
-baseUrl =  "http://cdm.brmh.org/WebAPI"
+baseUrl =  "****"
 authorizeWebApi(baseUrl, 
                 authMethod = "db", 
                 webApiUsername = "****", 
@@ -90,7 +90,7 @@ cohortSettings <-
                                              "717607; 715259; 743670",
                                              "725131",
                                              "710062; 738156; 721724")),
-    baseUrl =  "http://cdm.brmh.org/WebAPI",
+    baseUrl =  "****",
     loadCohorts = TRUE)
 
 characterizationSettings <-
